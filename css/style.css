@@ -1,0 +1,102 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html, .login_form {
+  height: 100%;
+}
+
+body {
+  background: url("../pic/backgroundemp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login_form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: center;
+  -moz-box-flex: center;
+  -webkit-flex: center;
+  -ms-flex: center;
+  flex: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  max-width: 500px;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 70%;
+}
+
+form {
+  padding: 2em 1em;
+  font-family: helvetica, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+form label {
+  color: #000;
+  margin: 0 3% .25em;
+  display: block;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+}
+form input {
+  width: 94%;
+  padding: .5em .25em;
+  margin: 0 3% 1em;
+  font-size: 1.2em;
+  border: 2px solid #000;
+  outline: none;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+form input:focus {
+  border: 2px solid blue;
+}
+form button {
+  background-color: Transparent;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  font-size: 1.25em;
+  clear: both;
+  color: blue;
+  font-weight: bold;
+  outline: none;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  -ms-transition: all 0.75s;
+  -o-transition: all 0.75s;
+  transition: all 0.75s;
+  cursor: pointer;
+}
+form button:focus, form button:hover {
+  color: #efd739;
+}
